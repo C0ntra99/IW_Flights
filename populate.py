@@ -184,7 +184,7 @@ if __name__ == "__main__":
         cur = conn.cursor()
 
 
-        flight_data_file = open("flights_new.txt", "r")
+        flight_data_file = open("Data/flights_NEW.txt", "r")
         flight_data_array= flight_data_file.readlines()
         flight_data_cols = flight_data_array[0].split("|")
 
